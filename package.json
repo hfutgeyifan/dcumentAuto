@@ -1,0 +1,23 @@
+{
+  "name": "document-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "createDoc": "bin/documentAuto.js"
+  },
+  "scripts": {
+    "test": "node ./bin/documentAuto.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "commander": "^9.4.0",
+    "js-yaml": "^4.1.0",
+    "walk": "^2.3.15"
+  }
+}
