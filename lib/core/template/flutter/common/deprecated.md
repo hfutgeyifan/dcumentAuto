@@ -1,1 +1,1 @@
-{{deprecated}}
+废弃情况描述：{{deprecated}}
