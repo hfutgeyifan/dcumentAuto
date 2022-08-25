@@ -4,7 +4,7 @@ name: createTextMsssage
 features: 创建文本消息
 version: 1.1.1
 ignore: false
-deprecated: 此接口已经废弃，请使用[createMsssage]()
+deprecated: 此接口已经废弃，请使用[createMsssage]()[createMsssage]()
 precautions:
   info:
     - dis
@@ -40,7 +40,7 @@ returnValues:
       description: 请求结果[错误码](https://xxxx)
     - type: String
       name: desc
-      description: 请求结果描述符
+      description: 请求结果描述符[V2TimMsgCreateInfoResult]()
     - type: '[V2TimMsgCreateInfoResult]()'
       name: data
       description: 创建结果
