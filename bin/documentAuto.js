@@ -1,13 +1,7 @@
-const program = require('commander');
-const apidoc = require('../lib/index.js');
+const doc = require('../lib/index.js');
+const option = require('../lib/options.js');
 
-program.version('1.0.0', '-v, --version')
-    .command('init <name>')
-    .action(() => {
-        console.log('start');
-    });
-
-if (apidoc.createDoc({}) === false) {
+if (doc.createDoc(option) === false) {
     console.error('[error] apidoc encountered an error during documentation generation!');
     process.exit(1);
 }
