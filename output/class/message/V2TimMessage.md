@@ -8,7 +8,7 @@
 
 消息属性最低可使用的版本号：1.1.1
 
-废弃情况描述：此关键类已经废弃，请参考[V2TimMessage2]()
+废弃情况描述：此关键类已经废弃，请参考[V2TimMessage2](V2TimMessage2.md)
 
 {% hint style="info" %}
 dis
@@ -54,7 +54,7 @@ dis
 
 ### textElem
 
-* 参数类型 : [V2TimTextElem]()
+* 参数类型 : [V2TimTextElem](../../enum/V2TimTextElem.md)
 * 参数描述 : 消息类型为 V2TIM_ELEM_TYPE_TEXT,textElem 会存储文本消息内容
 
 

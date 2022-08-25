@@ -8,7 +8,7 @@
 
 黑名单列表新增用户的回调最低可使用的版本号：1.1.1
 
-废弃情况描述：此枚举已经废弃，请参考[OnBlackListAddCallback2]()
+废弃情况描述：此枚举已经废弃，请参考[OnBlackListAddCallback2](OnBlackListAddCallback2.md)
 
 {% hint style="info" %}
 dis
@@ -35,7 +35,7 @@ List<V2TimFriendInfo> infoList
 
 | 名称 | 数值类型 | 描述 |
 | ---- | -------- | ---- |
-| infoList | List< [V2TimFriendInfo]() > | 新增的用户信息列表 |
+| infoList | List< [V2TimFriendInfo](../class/user/V2TimFriendInfo.md) > | 新增的用户信息列表 |
 
 
 ## 代码示例

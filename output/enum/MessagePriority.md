@@ -8,7 +8,7 @@
 
 消息优先级最低可使用的版本号：1.1.1
 
-废弃情况描述：此枚举已经废弃，请参考[MessagePriority2]()
+废弃情况描述：此枚举已经废弃，请参考[MessagePriority2](MessagePriority2.md)
 
 {% hint style="info" %}
 dis

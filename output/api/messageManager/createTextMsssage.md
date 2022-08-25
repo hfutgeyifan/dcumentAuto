@@ -8,7 +8,7 @@
 
 创建文本消息最低可使用的版本号：1.1.1
 
-废弃情况描述：此接口已经废弃，请使用[createMsssage]()
+废弃情况描述：此接口已经废弃，请使用[createMsssage](createMsssage.md)
 
 {% hint style="info" %}
 dis
@@ -51,7 +51,7 @@ V2TimValueCallback<V2TimMsgCreateInfoResult>
 | ---- | -------- | ---- |
 | code | int | 请求结果[错误码](https://xxxx) |
 | desc | String | 请求结果描述符 |
-| data | [V2TimMsgCreateInfoResult]() | 创建结果 |
+| data | [V2TimMsgCreateInfoResult](../../class/message/V2TimMsgCreateInfoResult.md) | 创建结果 |
 
 
 ## 代码示例
