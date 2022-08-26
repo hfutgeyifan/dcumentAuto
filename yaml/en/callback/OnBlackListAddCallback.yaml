@@ -1,0 +1,25 @@
+type: callback
+group: user
+name: OnBlackListAddCallback
+features: ttttttttt
+version: 1.1.1
+ignore: false
+deprecated: tttttttttOnBlackListAddCallback2]()
+precautions:
+  info:
+    - dis
+    - 1. info1
+    - 2. info2
+  warn:
+    - dis
+    - 1. warn1
+    - 2. warn2
+returnExample: |-
+  OnBlackListAddCallback = void Function(
+  List<V2TimFriendInfo> infoList
+  )
+returnValues:
+  - type: List< [V2TimFriendInfo]() >
+    name: infoList
+    description: 新增的用户信息列表
+example: true

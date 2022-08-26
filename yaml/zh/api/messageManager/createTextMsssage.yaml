@@ -1,0 +1,47 @@
+type: api
+group: messageManager
+name: createTextMsssage
+features: 创建文本消息
+version: 1.1.1
+ignore: false
+deprecated: 此接口已经废弃，请使用[createMsssage]()
+precautions:
+  info:
+    - dis
+    - 1. info1
+    - 2. info2
+  warn:
+    - dis
+    - 1. warn1
+    - 2. warn2
+params:
+  - type: String
+    required: true
+    name: text
+    description: 消息文本
+  - type: int
+    required: false
+    name: status
+    description: 状态
+returnExample: |-
+    V2TimValueCallback<V2TimMsgCreateInfoResult>
+            
+    {
+        code: int,
+        desc: String,
+        data: {
+            id: String,
+            messageInfo: V2TimMessage,
+        }
+    }
+returnValues:
+    - type: int
+      name: code
+      description: 请求结果[错误码](https://xxxx)
+    - type: String
+      name: desc
+      description: 请求结果描述符[V2TimMsgCreateInfoResult]()
+    - type: '[V2TimMsgCreateInfoResult]()'
+      name: data
+      description: 创建结果
+example: true
