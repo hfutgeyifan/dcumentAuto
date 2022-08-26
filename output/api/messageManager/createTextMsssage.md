@@ -52,8 +52,6 @@ V2TimValueCallback<V2TimMsgCreateInfoResult>
 | code | int | 请求结果[错误码](https://xxxx) |
 | desc | String | 请求结果描述符[V2TimMsgCreateInfoResult](../../class/message/V2TimMsgCreateInfoResult.md) |
 | data | [V2TimMsgCreateInfoResult](../../class/message/V2TimMsgCreateInfoResult.md) | 创建结果 |
-
-
 ## 代码示例
 
 ```dart

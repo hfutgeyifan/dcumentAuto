@@ -36,8 +36,6 @@ List<V2TimFriendInfo> infoList
 | 名称 | 数值类型 | 描述 |
 | ---- | -------- | ---- |
 | infoList | List< [V2TimFriendInfo](../class/user/V2TimFriendInfo.md) > | 新增的用户信息列表 |
-
-
 ## 代码示例
 
 ```dart
