@@ -8,7 +8,7 @@
 
 创建文本消息最低可使用的版本号：1.1.1
 
-废弃情况描述：此接口已经废弃，请使用[createMsssage](createMsssage.md)[createMsssage](createMsssage.md)
+废弃情况描述：此接口已经废弃，请使用[createMsssage](createMsssage.md)
 
 {% hint style="info" %}
 dis

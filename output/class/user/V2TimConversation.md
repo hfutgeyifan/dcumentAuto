@@ -2,13 +2,13 @@
 
 描述对象所属群组：message
 
-# V2TimMessage2
+# V2TimConversation
 
 ## 功能介绍
 
 消息属性最低可使用的版本号：1.1.1
 
-废弃情况描述：此关键类已经废弃，请参考[V2TimMessage2](V2TimMessage2.md)
+废弃情况描述：此关键类已经废弃，请参考[V2TimMessage2](../message/V2TimMessage2.md)
 
 {% hint style="info" %}
 dis
@@ -26,13 +26,13 @@ dis
 ## 参数介绍
 
 
-### msgID
+### userID
 
 * 参数类型 : String
 * 参数描述 : 消息ID(消息创建的时候为 nil,消息发送的时候会生成)
 
 
-### status
+### resultCode
 
 * 参数类型 : int
 * 参数描述 : 消息发送状态
@@ -52,7 +52,7 @@ dis
 {% endhint %}
 
 
-### textElem
+### resultInfo
 
 * 参数类型 : [V2TimTextElem](../../enum/V2TimTextElem.md)
 * 参数描述 : 消息类型为 V2TIM_ELEM_TYPE_TEXT,textElem 会存储文本消息内容

@@ -50,7 +50,7 @@
 /// 
 /// 所属群组：message
 /// 
-/// V2TimMessage
+/// V2TimFriendOperationResult
 /// 
 /// 功能介绍:消息属性
 /// 

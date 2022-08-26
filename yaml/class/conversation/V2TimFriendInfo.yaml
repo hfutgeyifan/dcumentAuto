@@ -1,0 +1,35 @@
+type: class
+group: message
+name: V2TimFriendInfo
+features: 消息属性
+version: 1.1.1
+ignore: false
+deprecated: 此关键类已经废弃，请参考[V2TimMessage2]()
+precautions:
+  info:
+    - dis
+    - 1. info1
+    - 2. info2
+  warn:
+    - dis
+    - 1. warn1
+    - 2. warn2
+attributes:
+  - name: userID
+    type: String
+    description: 消息ID(消息创建的时候为 nil,消息发送的时候会生成)
+    extra: []
+  - name: resultCode
+    type: int
+    description: 消息发送状态
+    extra:
+      - 1:消息发送中
+      - 2:消息发送成功
+      - 3:消息发送失败
+      - 4:消息被删除
+      - 5:导入到本地的消息
+      - 6:被撤销的消息
+  - name: resultInfo
+    type: '[V2TimTextElem]()'
+    description: 消息类型为 V2TIM_ELEM_TYPE_TEXT,textElem 会存储文本消息内容
+    extra: []

@@ -2,7 +2,7 @@
 
 描述对象所属群组：message
 
-# V2TimMessage
+# V2TimFriendInfo
 
 ## 功能介绍
 
