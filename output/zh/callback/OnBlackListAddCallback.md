@@ -2,13 +2,17 @@
 
 描述对象所属群组：user
 
+
 # OnBlackListAddCallback
 
 ## 功能介绍
 
-黑名单列表新增用户的回调最低可使用的版本号：1.1.1
+黑名单列表新增用户的回调
+
+最低可使用的版本号：1.1.1
 
 废弃情况描述：此枚举已经废弃，请参考[OnBlackListAddCallback2](OnBlackListAddCallback2.md)
+
 
 {% hint style="info" %}
 dis
@@ -31,11 +35,14 @@ List<V2TimFriendInfo> infoList
 )
 ```
 
+
 ## 返回值详解
 
 | 名称 | 数值类型 | 描述 |
 | ---- | -------- | ---- |
 | infoList | List< [V2TimFriendInfo](../class/conversation/V2TimFriendInfo.md) > | 新增的用户信息列表 |
+
+
 ## 代码示例
 
 ```dart

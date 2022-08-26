@@ -2,13 +2,17 @@
 
 描述对象所属群组：messageManager
 
+
 # createMsssage
 
 ## 功能介绍
 
-创建文本消息最低可使用的版本号：1.1.1
+创建文本消息
+
+最低可使用的版本号：1.1.1
 
 废弃情况描述：此接口已经废弃，请使用[createTextMsssage](createTextMsssage.md)
+
 
 {% hint style="info" %}
 dis
@@ -45,6 +49,7 @@ V2TimValueCallback<V2TimMsgCreateInfoResult>
 }
 ```
 
+
 ## 返回值详解
 
 | 名称 | 数值类型 | 描述 |
@@ -52,6 +57,8 @@ V2TimValueCallback<V2TimMsgCreateInfoResult>
 | code | int | 请求结果[错误码](https://xxxx) |
 | desc | String | 请求结果描述符[V2TimMsgCreateInfoResult](../../class/message/V2TimMsgCreateInfoResult.md) |
 | data | [V2TimMsgCreateInfoResult](../../class/message/V2TimMsgCreateInfoResult.md) | 创建结果 |
+
+
 ## 代码示例
 
 ```dart

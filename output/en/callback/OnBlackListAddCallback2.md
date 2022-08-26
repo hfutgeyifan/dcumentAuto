@@ -1,14 +1,18 @@
-文档描述类型：callback
 
-描述对象所属群组：user
+Document description type：callback
+
+Group：user
 
 # OnBlackListAddCallback2
 
-## 功能介绍
 
-ttttttttt最低可使用的版本号：1.1.1
+## introduction
 
-废弃情况描述：ttttttttt，ttttttttt[OnBlackListAddCallback2](OnBlackListAddCallback2.md)
+ttttttttt
+
+Minimum usable version：1.1.1
+
+Description of abandonment：ttttttttt，ttttttttt[OnBlackListAddCallback2](OnBlackListAddCallback2.md)
 
 {% hint style="info" %}
 dis
@@ -23,7 +27,8 @@ dis
 2. warn2
 {% endhint %}
 
-## 返回模板
+
+## Returned template
 
 ```dart
 OnBlackListAddCallback = void Function(
@@ -31,12 +36,14 @@ List<V2TimFriendInfo> infoList
 )
 ```
 
-## 返回值详解
 
-| 名称 | 数值类型 | 描述 |
-| ---- | -------- | ---- |
+## Return value details
+
+| name | type | description |
+| ---- | ---- | ----------- |
 | infoList | List< [V2TimFriendInfo](../class/conversation/V2TimFriendInfo.md) > | ttttttttt |
-## 代码示例
+
+## Code example
 
 ```dart
 true

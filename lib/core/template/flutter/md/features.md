@@ -1,3 +1,6 @@
-## 功能介绍
+{{if language=='zh'}}## 功能介绍
 
-{{features}}
+{{features}}{{/if}}
+{{if language=='en'}}## introduction
+
+{{features}}{{/if}}

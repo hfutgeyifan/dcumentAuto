@@ -1,14 +1,18 @@
-文档描述类型：class
 
-描述对象所属群组：message
+Document description type：class
+
+Group：message
 
 # V2TimMessage
 
-## 功能介绍
 
-消息属性最低可使用的版本号：1.1.1
+## introduction
 
-废弃情况描述：此关键类已经废弃，请参考[V2TimMessage2](V2TimMessage2.md)
+消息属性
+
+Minimum usable version：1.1.1
+
+Description of abandonment：此关键类已经废弃，请参考[V2TimMessage2](V2TimMessage2.md)
 
 {% hint style="info" %}
 dis
@@ -23,19 +27,20 @@ dis
 2. warn2
 {% endhint %}
 
-## 参数介绍
+
+## Parameter introduction
 
 
 ### msgID
 
-* 参数类型 : String
-* 参数描述 : 消息ID(消息创建的时候为 nil,消息发送的时候会生成)
+* Parameter type : String
+* Parameter description : 消息ID(消息创建的时候为 nil,消息发送的时候会生成)
 
 
 ### status
 
-* 参数类型 : int
-* 参数描述 : 消息发送状态
+* Parameter type : int
+* Parameter description : 消息发送状态
 
 {% hint style="info" %}
 1:消息发送中
@@ -54,8 +59,8 @@ dis
 
 ### textElem
 
-* 参数类型 : [V2TimTextElem](../../enum/V2TimTextElem.md)
-* 参数描述 : 消息类型为 V2TIM_ELEM_TYPE_TEXT,textElem 会存储文本消息内容
+* Parameter type : [V2TimTextElem](../../enum/V2TimTextElem.md)
+* Parameter description : 消息类型为 V2TIM_ELEM_TYPE_TEXT,textElem 会存储文本消息内容
 
 
 
