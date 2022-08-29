@@ -1,7 +1,7 @@
 type: api
 group: messageManager
 name: createTextMsssage
-features: 创建文本消息
+features: createTextMsssagecreateTextMsssage
 version: 1.1.1
 ignore: false
 deprecated: 此接口已经废弃，请使用[createMsssage]()

@@ -5,7 +5,7 @@
 ///
 /// createTextMsssage
 ///
-/// introduction:创建文本消息
+/// introduction:createTextMsssagecreateTextMsssage
 ///
 /// Minimum usable version：1.1.1
 /// 
@@ -42,7 +42,8 @@
 /// Return value details：
 /// - code int 请求结果[错误码](https://xxxx)
 /// - desc String 请求结果描述符[V2TimMsgCreateInfoResult]()
-/// - data [V2TimMsgCreateInfoResult]() 创建结果///
+/// - data [V2TimMsgCreateInfoResult]() 创建结果
+///
 /// See the example folder for code examples
 ///
 /// zh:
@@ -213,7 +214,7 @@ class V2TimFriendOperationResult {
 ///
 /// Group:message
 ///
-/// MessagePriority
+/// MessagePriority2
 ///
 /// introduction:消息优先级
 ///
@@ -242,7 +243,7 @@ class V2TimFriendOperationResult {
 /// 
 /// 所属群组：message
 ///
-/// MessagePriority
+/// MessagePriority2
 ///
 /// 功能介绍:消息优先级
 ///

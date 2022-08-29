@@ -8,7 +8,7 @@ Group：messageManager
 
 ## introduction
 
-创建文本消息
+createTextMsssagecreateTextMsssage
 
 Minimum usable version：1.1.1
 
