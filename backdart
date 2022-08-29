@@ -1,0 +1,31 @@
+/// Template<createTextMsssage>
+
+/// Template<V2TimFriendOperationResult>
+class V2TimFriendOperationResult {
+  /// attributeTemplate<V2TimFriendOperationResult,userID>
+  late String? userID;
+
+  /// attributeTemplate<V2TimFriendOperationResult,resultCode>
+  late int? resultCode;
+
+  /// attributeTemplate<V2TimFriendOperationResult,resultInfo>
+  late String? resultInfo;
+
+  V2TimFriendOperationResult({
+    required this.userID,
+    this.resultCode,
+    this.resultInfo,
+  });
+}
+
+/// Template<MessagePriority>
+enum MessagePriority {
+  /// attributeTemplate<MessagePriority,V2TIM_PRIORITY_DEFAULT>
+  V2TIM_PRIORITY_DEFAULT,
+
+  /// attributeTemplate<MessagePriority,V2TIM_PRIORITY_NORMAL>
+  V2TIM_PRIORITY_NORMAL,
+
+  /// attributeTemplate<MessagePriority,V2TIM_PRIORITY_LOW>
+  V2TIM_PRIORITY_LOW
+}
